@@ -2,49 +2,153 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <title>Contact Me</title>
-    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width">
+
+    <title>Contact Me | Osariemen Arughu</title>
+
+    <link href="style.css"
+          rel="stylesheet"
+          type="text/css"
+          media="only screen and (min-width:960px)">
+
+    <link href="tablet.css"
+          rel="stylesheet"
+          type="text/css"
+          media="only screen and (min-width:481px) and (max-width:960px)">
+
+    <link href="phone.css"
+          rel="stylesheet"
+          type="text/css"
+          media="only screen and (max-width:480px)">
+
 </head>
 
 <body>
 
+<div id="wrapper">
+
     <header>
 
-    <nav>
-        Osariemen Arughu
+        <h1>Osariemen Arughu</h1>
 
-        <a href="index.html">Home</a>
-        <a href="about.html">About Me</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact Me</a>
-    </nav>
+        <nav>
+
+            <h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact Me</a>
+            </h4>
+
+        </nav>
+
+        <div class="clear"></div>
 
     </header>
 
-    <main>
 
-        <section>
+    <article>
 
-            <h2></h2>
+        <section class="page-heading">
+
+            <h2>Contact Me</h2>
 
             <p>
-                
+                Feel free to contact me regarding IT co-op
+                internship or networking opportunities.
             </p>
-
-            
 
         </section>
 
-    </main>
+
+        <section class="contact-section">
+
+            <h2>Send a Message</h2>
+
+            <form action="mailto:Osariemenarughu@gmail.com"
+                  method="post"
+                  enctype="text/plain"
+                  name="form">
+
+                <p>
+                    <label for="name">Name</label><br>
+
+                    <input type="text"
+                           id="name"
+                           name="name"
+                           size="40"
+                           required>
+                </p>
+
+
+                <p>
+                    <label for="email">Email</label><br>
+
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           size="40"
+                           required>
+                </p>
+
+
+                <p>
+                    <label for="cell">Cell No.</label><br>
+
+                    <input type="number"
+                           id="cell"
+                           name="cell"
+                           required>
+                </p>
+
+
+                <p>
+                    <label for="comments">Comments</label><br>
+
+                    <textarea id="comments"
+                              name="comments"
+                              cols="60"
+                              rows="6"></textarea>
+                </p>
+
+
+                <p>
+                    <input type="submit"
+                           value="Submit">
+
+                    <input type="reset"
+                           value="Reset">
+                </p>
+
+            </form>
+
+        </section>
+
+    </article>
+
 
     <footer>
 
-        <p>your@email.com</p>
+        <p>
+            Copyright 2026 Osariemen Arughu
+        </p>
 
-        <p>Copyright 2026 Osariemen Arughu</p>
+        <address>
+
+            <p>
+                <a href="mailto:Osariemenarughu@gmail.com">
+                    Osariemenarughu@gmail.com
+                </a>
+            </p>
+
+        </address>
 
     </footer>
+
+</div>
 
 </body>
 
