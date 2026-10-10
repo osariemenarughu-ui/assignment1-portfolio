@@ -1,0 +1,329 @@
+@charset "UTF-8";
+/* Main page colors and font */
+body {
+    background-color: #11161c;
+    color: #d9e0e5;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #161d24;
+}
+/* Header and nav */
+header {
+    background-color: #0b1015;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 24px;
+}
+
+nav {
+    width: 100%;
+}
+
+nav a {
+    display: block;
+    width: 80%;
+    color: #c7d0d7;
+    text-decoration: none;
+    background-color: #1b232b;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #2785b8;
+    color: white;
+}
+/* Clears floated elements */
+.clear {
+    clear: both;
+}
+/* General page content */
+article {
+    background-color: #161d24;
+}
+
+section {
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: #6db6dd;
+}
+
+a {
+    color: #6db6dd;
+}
+
+.small-heading {
+    color: #6db6dd;
+}
+/* Home page hero */
+#hero {
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    background: linear-gradient(
+        45deg,
+        #161d24 0%,
+        #1b2b35 100%
+    );
+}
+
+#hero h2 {
+    font-size: 28px;
+}
+
+#hero h3 {
+    width: 90%;
+    font-size: 18px;
+    color: #c7d0d7;
+}
+
+#hero p {
+    width: 90%;
+}
+
+/* Home page buttons */
+.primary-button,
+.secondary-button {
+    display: block;
+    width: 80%;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.primary-button {
+    background: #2785b8;
+    color: white;
+}
+
+.secondary-button {
+    background-color: #1b232b;
+    border: 1px solid #56636e;
+    color: #d9e0e5;
+}
+/* Home background section */
+.simple-section {
+    background: linear-gradient(
+        to right,
+        #161d24 0%,
+        #1b222a 100%
+    );
+}
+
+.simple-section p {
+    width: 90%;
+}
+
+.text-link {
+    color: #6db6dd;
+    text-decoration: none;
+}
+/* Inner page heading */
+.page-heading {
+    background: linear-gradient(
+        45deg,
+        #161d24 0%,
+        #1b2b35 100%
+    );
+}
+
+.page-heading h2 {
+    font-size: 28px;
+}
+
+.page-heading p {
+    color: #c7d0d7;
+}
+/* About page sections */
+.content-section {
+    background: linear-gradient(
+        to right,
+        #161d24 0%,
+        #192129 100%
+    );
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #2b3540;
+}
+
+/* Profile box */
+.profile-side {
+    float: none;
+    width: 90%;
+    background-color: #1b232b;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 1px solid #303c47;
+    border-radius: 6px;
+}
+
+.profile-side img {
+    width: 90%;
+    height: auto;
+    margin: 5%;
+}
+
+.profile-side h3 {
+    color: #6db6dd;
+}
+
+.profile-side p {
+    color: #c7d0d7;
+}
+
+.about-content {
+    float: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Introduction video */
+video {
+    width: 90%;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+    border: 1px solid #394957;
+}
+/* Contact page */
+.contact-section {
+    background: linear-gradient(
+        to right,
+        #161d24 0%,
+        #192129 100%
+    );
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    float: none;
+    width: 90%;
+    min-height: 250px;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background-color: #1b232b;
+    border: 1px solid #303c47;
+    border-radius: 6px;
+}
+
+.contact-form {
+    float: none;
+    width: 90%;
+    min-height: 450px;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1b232b;
+    border: 1px solid #303c47;
+    border-radius: 6px;
+}
+/* Contact form fields */
+.form-field {
+    width: 85%;
+    background-color: #12181e;
+    color: white;
+    border: 1px solid #394957;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+textarea.form-field {
+    width: 85%;
+}
+
+.form-button {
+    background-color: #2785b8;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #394957;
+    border-radius: 5px;
+}
+/* Projects page */
+.project-section {
+    background: linear-gradient(
+        to right,
+        #161d24 0%,
+        #192129 100%
+    );
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-card {
+    float: none;
+    width: 90%;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding: 3%;
+    background-color: #1b232b;
+    border: 1px solid #303c47;
+    border-radius: 6px;
+}
+
+.project-card h3 {
+    color: #6db6dd;
+}
+
+footer {
+    clear: both;
+    background-color: #0b1015;
+    color: #87949e;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer a {
+    color: #6db6dd;
+}

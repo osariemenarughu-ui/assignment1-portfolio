@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+/* Main page colors and font */
 body {
     background-color: #11161c;
     color: #d9e0e5;
@@ -14,7 +16,7 @@ body {
     margin-right: auto;
     background-color: #161d24;
 }
-
+/* header and navigation */
 header {
     background-color: #0b1015;
     color: white;
@@ -52,7 +54,7 @@ nav a:hover {
     background: #2785b8;
     color: white;
 }
-
+/* Clears floated elements */
 .clear {
     clear: both;
 }
@@ -90,7 +92,7 @@ a {
 .small-heading {
     color: #6db6dd;
 }
-
+/* Home page hero */
 #hero {
     min-height: 320px;
     padding-top: 60px;
@@ -116,7 +118,7 @@ a {
 #hero p {
     width: 85%;
 }
-
+/* Home page buttons */
 .primary-button,
 .secondary-button {
     display: inline-block;
@@ -144,7 +146,7 @@ a {
 .secondary-button:hover {
     background: #27313a;
 }
-
+/* Home background section */
 .simple-section {
     background: linear-gradient(
         to right,
@@ -165,7 +167,7 @@ a {
 .text-link:hover {
     color: white;
 }
-
+/* Inner page heading */
 .page-heading {
     background: linear-gradient(
         45deg,
@@ -193,7 +195,7 @@ a {
     margin-bottom: 15px;
     border: 1px solid #2b3540;
 }
-
+/* Profile box */
 .profile-side {
     float: right;
     width: 35%;
@@ -222,7 +224,7 @@ a {
     float: left;
     width: 55%;
 }
-
+/* Intro video */
 video {
     width: 85%;
     height: auto;
@@ -264,7 +266,7 @@ video {
     border: 1px solid #303c47;
     border-radius: 6px;
 }
-
+/* Contact form fields */
 .form-field {
     width: 80%;
     background-color: #12181e;
@@ -288,6 +290,7 @@ textarea.form-field {
     border-radius: 5px;
 }
 
+/* Projects page */
 .project-section {
     background: linear-gradient(
         to right,

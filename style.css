@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* Main page colors and font */
 body {
     background-color: #11161c;
     color: #d9e0e5;
@@ -7,14 +8,14 @@ body {
     padding: 0px;
     margin: 0px;
 }
-
+/* Centers and sizes the website */
 #wrapper {
     width: 88%;
     margin-left: auto;
     margin-right: auto;
     background-color: #161d24;
 }
-
+/* Header and navigation */
 header {
     background-color: #0b1015;
     color: white;
@@ -54,11 +55,11 @@ nav a:hover {
     background: #2785b8;
     color: white;
 }
-
+/* Clears floated elements */
 .clear {
     clear: both;
 }
-
+/* General page content */
 article {
     background-color: #161d24;
 }
@@ -93,6 +94,7 @@ a {
     color: #6db6dd;
 }
 
+/* Home page hero */
 #hero {
     min-height: 360px;
     padding-top: 80px;
@@ -146,6 +148,7 @@ a {
 .secondary-button:hover {
     background: #27313a;
 }
+/* Home page background section */
 
 .simple-section {
     background: linear-gradient(
@@ -167,7 +170,7 @@ a {
 .text-link:hover {
     color: white;
 }
-
+/* Heading used on inner pages */
 .page-heading {
     background: linear-gradient(
         45deg,
@@ -184,6 +187,7 @@ a {
     color: #c7d0d7;
 }
 
+/* About page sections */
 .content-section {
     background: linear-gradient(
         to right,
@@ -195,7 +199,7 @@ a {
     margin-bottom: 15px;
     border: 1px solid #2b3540;
 }
-
+/* Profile box */
 .profile-side {
     float: right;
     width: 28%;
@@ -224,7 +228,7 @@ a {
     float: left;
     width: 64%;
 }
-
+/* about me intro vid */
 video {
     width: 640px;
     padding: 10px;
@@ -232,7 +236,7 @@ video {
     background-color: black;
     border: 1px solid #394957;
 }
-
+/* Contact page layout */
 .contact-section {
     background: linear-gradient(
         to right,
@@ -265,7 +269,7 @@ video {
     border: 1px solid #303c47;
     border-radius: 6px;
 }
-
+/* Contact form fields */
 .form-field {
     background-color: #12181e;
     color: white;
@@ -293,7 +297,7 @@ textarea.form-field {
     background-color: #3999cc;
     color: white;
 }
-
+/* Projects page layout */
 .project-section {
     background: linear-gradient(
         to right,
